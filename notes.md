@@ -23,3 +23,6 @@ importing:
   
 const { action } = require('./common')
 ```
+
+import _ from 'lodash'  <--- from npm i
+import _ from './lodash' <--- internal folder I created
