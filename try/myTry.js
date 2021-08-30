@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-let template = fs.readFileSync(path.join(__dirname,"../template.html"), "utf8", (err, data) => {
+let template = fs.readFileSync(path.join(__dirname,"template.html"), "utf8", (err, data) => {
   if (err) console.log(err);
   return data;
 });
